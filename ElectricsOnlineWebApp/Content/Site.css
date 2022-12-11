@@ -99,6 +99,7 @@ textarea {
     -webkit-transition: .3s;
     padding: 20px;
     border: 1px solid #696969;
+    background: #fafafa;
 }
 .list-item:hover {
     opacity: 1
@@ -159,7 +160,6 @@ textarea {
 }
 .list-item .p-price {
     color: #000000;
-    background: #ffffff;
     font-weight: bold;
     font-size: .9em;
     padding: 10px;
