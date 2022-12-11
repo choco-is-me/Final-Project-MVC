@@ -270,8 +270,6 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Images\Products\noimage.png" />
-    <Content Include="Images\Suppliers\Breville.jpg" />
-    <Content Include="Images\Suppliers\LG.jpg" />
     <Content Include="Model.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model.edmx</DependentUpon>
@@ -340,6 +338,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Admin\Views\Base\" />
+    <Folder Include="Images\Suppliers\" />
     <Folder Include="Views\Base\" />
   </ItemGroup>
   <ItemGroup>
