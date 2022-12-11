@@ -1,5 +1,5 @@
 --use [master]
-use [Shop]
+use [sob]
 GO
 /****** Suppliers ******/
 SET ANSI_NULLS ON
