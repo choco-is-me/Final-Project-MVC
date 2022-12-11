@@ -18,8 +18,7 @@
     @foreach (var item in ViewBag.Suppliers)
     {
         <div class="list-item suppliers">
-            <img src="@String.Format("{0}{1}.jpg",Url.Content("~/Images/Suppliers/"), item.SName)" height="70px" width="auto" alt="@item.SName" /><br/>
-            <span class="p-cart"><b>@item.SName</b></span> -
+            <span class="p-cart"><b>@item.SName</b></span> <br />
             <span class="email">@item.Email</span> <br/>
             <span class="phone">Phone: @item.Phone</span>
             <div class="address">
