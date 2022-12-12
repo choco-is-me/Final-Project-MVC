@@ -1,3 +1,7 @@
+--Testing
+--SET IDENTITY_INSERT [dbo].[Products] ON
+--INSERT INTO Products (PID, PName, Brand, UnitPrice, UnitsInStock, Category, Description, SID, ROL) VALUES (11, N'Strawberry MilkShake', N'Herbalife Nutrition', 50.9000, 200, N'Supplement', N'Very good and yummy as well', 2, 1)
+--SET IDENTITY_INSERT [dbo].[Products] OFF
 --use [master]
 use [Shop]
 GO
